@@ -1,0 +1,83 @@
+@font-face {
+    font-family: inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+*{
+    font-family: inter;
+    margin: 0;
+    padding: 0;
+    color: hsl(0, 0%, 100%);
+
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.main-container{
+    width: 400px;
+    max-width: 500px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.main-container .head-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.head-text h1{
+    font-size: 160%;
+    margin-bottom: 10px;
+}
+
+.head-text h2{
+    font-size: 85%;
+    margin-bottom: 6px;
+    color: hsl(75, 94%, 57%)
+}
+
+.head-text p{
+    font-size: 80%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#jessica{
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.buttons .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    width: 300px;
+    background-color: hsl(0, 0%, 20%);
+    text-decoration: none;
+    font-size: 80%;
+    text-align: center;
+    padding: 14px 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.btn{
+    padding: 10px 10px;
+    margin: 10px;
+}
